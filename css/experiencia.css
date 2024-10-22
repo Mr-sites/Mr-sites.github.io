@@ -1,0 +1,70 @@
+.subtitulo {
+  align-self: start;
+  color: #001;
+}
+.sobre_mim {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 60px;
+  max-width: 40ch;
+  color: #525252;
+}
+strong {
+  color: #000;
+}
+.projetos {
+  position: relative;
+  background-color: gainsboro;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+  gap: 10px 20px;
+}
+.experiencia span {
+  font-weight: bold;
+}
+.projetos_empresas {
+  font-size: calc(20rem / 16);
+}
+.projetos_duracao {
+  position: absolute;
+  left: -100px;
+  top: 20px;
+  color: gray;
+}
+.projetos_draco {
+  position: absolute;
+  left: -100px;
+  top: 20px;
+  color: gray;
+}
+.projetos_habilidade {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: center;
+}
+.projetos_habilidade li {
+  background-color: white;
+  padding: 5px 10px;
+}
+.exp_coluna {
+  display: grid;
+  gap: 20px;
+}
+.aa{
+  text-decoration:underline ;
+}
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .experiencia-texto {
+    font-size: 125rem;
+  }
+  .aa {
+    text-decoration:underline rgb(0, 132, 255) ;
+  }
+  
+}
